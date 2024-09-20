@@ -141,17 +141,3 @@ if __name__ == "__main__":
             save_preds(preds_angle, angle, f"angle_multi_{args.dataset}_{args.task}_{args.backbone}_{args.concept_features}", save_path)
 
             save_preds(preds_dist, dist, f"dist_multi_{args.dataset}_{args.task}_{args.backbone}_{args.concept_features}", save_path)
-
-            ...之前的代码... 
-
-# if __name__ == "__main__":
-#     torch.cuda.empty_cache()
-#     # ...之前的设置...
-
-#     parser = get_arg_parser()
-#     args = parser.parse_args()
-
-#     # 打印数据集地址
-#     print(f"Using dataset at: {args.dataset_path}")
-
-#     # ...之后的代码...
