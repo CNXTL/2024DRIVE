@@ -1,0 +1,5 @@
+python3 main_copy1.py -dataset comma -backbone none -concept_features -ground_truth normal -train -gpu_num 1  -max_epochs 50 -task distance -bs 2 -checkpoint_path /hpc2hdd/home/tianlangxue/XAI4AD/comma2k19data/ckpts_final/ckpts_final_comma_distance_none_True_1/lightning_logs/version_28_testval_noreverse/checkpoints/epoch=141-step=8520.ckpt
+python3 main_copy1.py -dataset comma -backbone none -concept_features -ground_truth normal -train -gpu_num 1  -max_epochs 50 -task multitask -bs 2 -checkpoint_path /hpc2hdd/home/tianlangxue/XAI4AD/comma2k19data/ckpts_final/ckpts_final_comma_multitask_none_True_1/lightning_logs/version_19_testval_noreverse/checkpoints/epoch=143-step=8640.ckpt
+python3 main_copy1.py -dataset comma -backbone none -concept_features -ground_truth normal -train -gpu_num 1  -max_epochs 50 -task angle -bs 2 -checkpoint_path /hpc2hdd/home/tianlangxue/XAI4AD/comma2k19data/ckpts_final/ckpts_final_comma_angle_none_True_1/lightning_logs/version_20_8.23/checkpoints/epoch=185-step=11160.ckpt
+
+#backbones stay the same, resume from corresponding trained DCG model
