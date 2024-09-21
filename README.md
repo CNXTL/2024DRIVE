@@ -64,8 +64,6 @@ Run  ```python3 main_copy1.py -dataset comma -backbone none -concept_features -g
 More references in /sh_scripts
 
 ## Citing<a name="citing"></a>
--->
-
 
 If you find this document useful for your research, please consider citing the following repository and paper:
 ```bibtex
