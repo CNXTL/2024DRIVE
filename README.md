@@ -1,4 +1,4 @@
-# <img src="https://github.com/xll0328/xll0328.github.io/blob/main/project/DRIVE/" class="floatpic" width="70" height="70"> DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving
+# <img src="https://github.com/xll0328/xll0328.github.io/blob/main/project/DRIVE/logo.png" class="floatpic" width="70" height="70"> DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving
 
 Songning Lai~, Tianlang Xue~, Hongru Xiao, Lijie Hu, Jiemin Wu, Ninghui Feng, Runwei Guan, Haicheng Liao, Zhenning Li, Yutao Yue†
 
