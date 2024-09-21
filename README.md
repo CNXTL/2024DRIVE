@@ -1,11 +1,16 @@
-# DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving
+# <img src="https://github.com/xll0328/xll0328.github.io/blob/main/project/DRIVE/" class="floatpic" width="70" height="70"> DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving
 
-core code for project "DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving", based on Pytorch Lightning
+Songning Lai~, Tianlang Xue~, Hongru Xiao, Lijie Hu, Jiemin Wu, Ninghui Feng, Runwei Guan, Haicheng Liao, Zhenning Li, Yutao Yue†
 
+HKUST(GZ), Tongji University, KAUST, University of Maca
+
+[![Website shields.io](https://img.shields.io/website?url=http%3A//poco.is.tue.mpg.de)](https://xll0328.github.io/project/DRIVE/) [![YouTube Badge](https://img.shields.io/badge/YouTube-Watch-red?style=flat-square&logo=youtube)](https://NA)  [![arXiv](https://img.shields.io/badge/arXiv-2409.10330-00ff00.svg)](https://arxiv.org/abs/2409.10330) 
+
+**Core code for project "DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving", based on Pytorch Lightning.**
 
 
 <p align="center">
-  <img src="https://github.com/xll0328/xll0328.github.io/blob/main/project/DRIVE/framwork_all.png" alt="The Dependably Robust Interpretable Visionary Ensemble (DRIVE) model framework. The input is processed by a feature extractor and a temporal encoder, followed by a concept bottleneck with scenario encoding. The DRIVE model incorporates a multi-objective optimization process, balancing consistent interpretability (Ci), stable interpretability (Si), consistent output (Co), and stable output (So) through auxiliary loss functions. The model is trained using PGD to enhance robustness against perturbations while maintaining interpretability and predictive consistency.">
+  <img src="https://github.com/xll0328/xll0328.github.io/blob/main/project/DRIVE/framwork_all.png" alt="The Dependably Robust Interpretable Visionary Ensemble (DRIVE) model framework.">
 </p>
 
 
