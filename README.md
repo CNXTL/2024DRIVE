@@ -1,8 +1,16 @@
-# 2024DRIVE
-core code for project "DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving", based on Pytorch Lightning
 # DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving
 
+core code for project "DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving", based on Pytorch Lightning
+
+
+
+<p align="center">
+  <img src="./framwork_all.png" alt="The Dependably Robust Interpretable Visionary Ensemble (DRIVE) model framework. The input is processed by a feature extractor and a temporal encoder, followed by a concept bottleneck with scenario encoding. The DRIVE model incorporates a multi-objective optimization process, balancing consistent interpretability (Ci), stable interpretability (Si), consistent output (Co), and stable output (So) through auxiliary loss functions. The model is trained using PGD to enhance robustness against perturbations while maintaining interpretability and predictive consistency.">
+</p>
+
+
 DRIVE is a comprehensive framework designed to address the reliability and stability issues in explanations of end-to-end unsupervised autonomous driving models, primarily aimed at enhancing the dependability and robustness of such systems.
+
 
 ## Features
 - **Consistent and Stable Interpretability**: The DRIVE framework ensures that explanations remain consistent and stable, making the decision-making process transparent and predictable across various scenarios.
@@ -54,3 +62,22 @@ Please refer to https://github.com/jessicamecht/concept_gridlock/blob/master/REA
 Run  ```python3 main_copy1.py -dataset comma -backbone none -concept_features -ground_truth normal -train -gpu_num 1  -max_epochs 50 -task distance -bs 2 -checkpoint_path DCG_checkpoint``` 
 
 More references in /sh_scripts
+
+## Citing<a name="citing"></a>
+-->
+
+
+If you find this document useful for your research, please consider citing the following repository and paper:
+```bibtex
+@misc{lai2024drivedependablerobustinterpretable,
+      title={DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving}, 
+      author={Songning Lai and Tianlang Xue and Hongru Xiao and Lijie Hu and Jiemin Wu and Ninghui Feng and Runwei Guan and Haicheng Liao and Zhenning Li and Yutao Yue},
+      year={2024},
+      eprint={2409.10330},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2409.10330}, 
+}
+```
+
+
