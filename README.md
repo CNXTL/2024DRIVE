@@ -5,7 +5,7 @@ core code for project "DRIVE: Dependable Robust Interpretable Visionary Ensemble
 
 
 <p align="center">
-  <img src="./framwork_all.png" alt="The Dependably Robust Interpretable Visionary Ensemble (DRIVE) model framework. The input is processed by a feature extractor and a temporal encoder, followed by a concept bottleneck with scenario encoding. The DRIVE model incorporates a multi-objective optimization process, balancing consistent interpretability (Ci), stable interpretability (Si), consistent output (Co), and stable output (So) through auxiliary loss functions. The model is trained using PGD to enhance robustness against perturbations while maintaining interpretability and predictive consistency.">
+  <img src="https://github.com/xll0328/xll0328.github.io/blob/main/project/DRIVE/framwork_all.png" alt="The Dependably Robust Interpretable Visionary Ensemble (DRIVE) model framework. The input is processed by a feature extractor and a temporal encoder, followed by a concept bottleneck with scenario encoding. The DRIVE model incorporates a multi-objective optimization process, balancing consistent interpretability (Ci), stable interpretability (Si), consistent output (Co), and stable output (So) through auxiliary loss functions. The model is trained using PGD to enhance robustness against perturbations while maintaining interpretability and predictive consistency.">
 </p>
 
 
